@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 
 
+@property(nonatomic, weak) IBOutlet UITextView *textField;
+
+@property(nonatomic, weak) IBOutlet UILabel *statusLabel;
+
+
 @end
 

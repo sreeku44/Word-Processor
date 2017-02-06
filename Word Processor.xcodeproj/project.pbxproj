@@ -13,6 +13,7 @@
 		DD17DEA61E45148A0041994A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD17DEA41E45148A0041994A /* Main.storyboard */; };
 		DD17DEA81E45148A0041994A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD17DEA71E45148A0041994A /* Assets.xcassets */; };
 		DD17DEAB1E45148A0041994A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD17DEA91E45148A0041994A /* LaunchScreen.storyboard */; };
+		DD17DEB71E4643650041994A /* Word Processor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17DEB61E4643650041994A /* Word Processor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DD17DEA71E45148A0041994A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD17DEAA1E45148A0041994A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD17DEAC1E45148A0041994A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD17DEB51E4643650041994A /* Word Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Word Processor.h"; sourceTree = "<group>"; };
+		DD17DEB61E4643650041994A /* Word Processor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Word Processor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				DD17DEA91E45148A0041994A /* LaunchScreen.storyboard */,
 				DD17DEAC1E45148A0041994A /* Info.plist */,
 				DD17DE9B1E45148A0041994A /* Supporting Files */,
+				DD17DEB51E4643650041994A /* Word Processor.h */,
+				DD17DEB61E4643650041994A /* Word Processor.m */,
 			);
 			path = "Word Processor";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				DD17DEA31E45148A0041994A /* ViewController.m in Sources */,
 				DD17DEA01E45148A0041994A /* AppDelegate.m in Sources */,
 				DD17DE9D1E45148A0041994A /* main.m in Sources */,
+				DD17DEB71E4643650041994A /* Word Processor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
